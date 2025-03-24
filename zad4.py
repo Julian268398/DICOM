@@ -1,18 +1,21 @@
 # https://pydicom.github.io/pydicom/dev/tutorials/dataset_basics.html
-# https://stackoverflow.com/questions/66697978/how-to-replace-an-image-in-dicom-in-python
+# https://pydicom.github.io/pydicom/stable/guides/user/working_with_pixel_data.html?utm_source=chatgpt.com
 
 import pydicom
+import numpy as np
 
 
 # metadata modification
-name = '12.dcm'
+name = 'lung_ct.dcm'
 file = pydicom.dcmread(name)  # Otwieranie pliku
-elem = file[0x0008,0x0060]
+elem = file[0x0008, 0x0060]
 file.Modality = 'MRI'
 print(elem)
 
-# picture modification
-png = Image.fromarray(file.pixel_array)
+# picture modification - negativ invertion
+arr = file.pixel_array
+arr = np.max(arr) - arr
+file.PixelData = arr.astype(file.pixel_array.dtype).tobytes()
 
 # saving file
-# file.save_as(f'{name}_modified.dcm')
+file.save_as(f'{name}_modified.dcm')
