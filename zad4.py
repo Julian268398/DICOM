@@ -1,4 +1,6 @@
 # https://pydicom.github.io/pydicom/dev/tutorials/dataset_basics.html
+# https://stackoverflow.com/questions/66697978/how-to-replace-an-image-in-dicom-in-python
+
 import pydicom
 
 
