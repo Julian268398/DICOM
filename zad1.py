@@ -1,5 +1,5 @@
 # information sources:
-# Dicom files that I used comes from portal kaggle.
+# Dicom files that I used come from portal kaggle.
 # How to read dicom data: https://www.kaggle.com/code/neuerfrhling/read-ct-dicom
 
 import pydicom
