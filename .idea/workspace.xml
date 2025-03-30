@@ -4,11 +4,174 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="807696e1-6dbb-4197-98b0-5a132016d410" name="Changes" comment="zad4">
-      <change afterPath="$PROJECT_DIR$/zad5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad6.py" afterDir="false" />
+    <list default="true" id="807696e1-6dbb-4197-98b0-5a132016d410" name="Changes" comment="zad5 i zad 6">
+      <change afterPath="$PROJECT_DIR$/1-003.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-1.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-001.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-002.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-003.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-004.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-005.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-006.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-007.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-008.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-009.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-010.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-011.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-012.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-013.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-014.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-015.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-016.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-017.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-018.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-019.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-020.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-021.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-022.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-023.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-024.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-025.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-026.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-027.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-028.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-029.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-033.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-034.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-035.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-036.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-037.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-038.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-039.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-040.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-041.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-042.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-043.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-044.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-045.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-046.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-047.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-048.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-049.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-050.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-051.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-052.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-053.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-054.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-055.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-056.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-057.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-058.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-059.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-060.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-061.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-062.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-063.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-064.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-065.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-066.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-067.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-068.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-069.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-070.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-071.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-072.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-073.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-074.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-075.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-076.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-077.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-078.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-079.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-080.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-081.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-082.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-083.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-084.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-085.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-086.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-087.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-088.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-089.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-090.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-091.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-092.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-093.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-094.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-095.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-096.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-097.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-098.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-099.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-100.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-101.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-102.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-103.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-104.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-105.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-106.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-107.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-108.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-109.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-110.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-111.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-112.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-113.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-114.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-115.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-116.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-117.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-118.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-119.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-120.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-121.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-122.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-123.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-124.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-125.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-126.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-127.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-128.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-129.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-130.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-131.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-132.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-133.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-134.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-135.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-136.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-137.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-138.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-139.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DICOM_Library/1-140.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000001.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000002.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000003.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000004.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000005.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000006.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000007.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000008.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000009.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000010.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000011.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000012.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000013.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000014.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000015.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000016.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000017.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000018.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000019.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000020.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000021.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000022.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000023.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seria/image-000024.dcm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zad1.py" beforeDir="false" afterPath="$PROJECT_DIR$/zad1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad5.py" beforeDir="false" afterPath="$PROJECT_DIR$/zad5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad6.py" beforeDir="false" afterPath="$PROJECT_DIR$/zad6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +206,7 @@
     "Python.zad4.executor": "Run",
     "Python.zad5.executor": "Run",
     "Python.zad6.executor": "Run",
+    "Python.zad7.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -59,6 +223,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\julia\PycharmProjects\pythonProject" />
       <recent name="C:\Users\julia\PycharmProjects\pythonProject\.venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\pythonProject" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -78,7 +245,9 @@
       <updated>1742751556421</updated>
       <workItem from="1742751561273" duration="5752000" />
       <workItem from="1742813385454" duration="6215000" />
-      <workItem from="1742914981863" duration="5766000" />
+      <workItem from="1742914981863" duration="6428000" />
+      <workItem from="1743268602242" duration="1739000" />
+      <workItem from="1743332443337" duration="8980000" />
     </task>
     <task id="LOCAL-00001" summary="Rozpoczęcie pracy nad listą">
       <option name="closed" value="true" />
@@ -96,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742853466570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zad5 i zad 6">
+      <option name="closed" value="true" />
+      <created>1742923315729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742923315729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,14 +282,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rozpoczęcie pracy nad listą" />
     <MESSAGE value="zad4" />
-    <option name="LAST_COMMIT_MESSAGE" value="zad4" />
+    <MESSAGE value="zad5 i zad 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="zad5 i zad 6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DICOM$zad2.coverage" NAME="zad2 Coverage Results" MODIFIED="1742771466395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DICOM$zad6.coverage" NAME="zad6 Coverage Results" MODIFIED="1742923253095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DICOM$zad6.coverage" NAME="zad6 Coverage Results" MODIFIED="1743269119687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DICOM$zad4.coverage" NAME="zad4 Coverage Results" MODIFIED="1742853256674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DICOM$zad_1.coverage" NAME="zad 1 Coverage Results" MODIFIED="1742754745427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DICOM$zad7.coverage" NAME="zad7 Coverage Results" MODIFIED="1743351190185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DICOM$zad3.coverage" NAME="zad3 Coverage Results" MODIFIED="1742771543020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DICOM$zad5.coverage" NAME="zad5 Coverage Results" MODIFIED="1742920705518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DICOM$zad5.coverage" NAME="zad5 Coverage Results" MODIFIED="1743338328475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

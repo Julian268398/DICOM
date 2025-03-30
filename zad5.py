@@ -1,7 +1,6 @@
 # https://www.kaggle.com/code/neuerfrhling/read-ct-dicom
 
 import pydicom
-import numpy as np
 import matplotlib.pyplot as plt
 
 # dicom_data = pydicom.dcmread('ct_brain.dcm')
@@ -70,4 +69,4 @@ def visualize_slice(dicom_file, plane='axial', index=None):
     plt.show()
 
 
-visualize_slice('spine_mri.dcm')
+visualize_slice('1-1.dcm')

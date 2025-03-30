@@ -13,4 +13,4 @@ def dcm_to_jpg(path):
     final.save(f'{path}.jpg')
 
 
-dcm_to_jpg('lung_ct.dcm')
+dcm_to_jpg('1-116.dcm')
