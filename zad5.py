@@ -1,6 +1,9 @@
 # https://www.kaggle.com/code/neuerfrhling/read-ct-dicom
+# https://stackoverflow.com/questions/34782409/understanding-dicom-image-attributes-to-get-axial-coronal-sagittal-cuts + poprawka chatu
 
+import os
 import pydicom
+import numpy as np
 import matplotlib.pyplot as plt
 
 # dicom_data = pydicom.dcmread('ct_brain.dcm')
@@ -11,62 +14,68 @@ import matplotlib.pyplot as plt
 # plt.show()
 
 
-def visualize_slice(dicom_file, plane='axial', index=None):
-    """
-    Wizualizuje przekrój obrazu DICOM w wybranej płaszczyźnie.
+def detect_orientation(dicom_file):
+    ds = pydicom.dcmread(dicom_file)
 
-    Parametry:
-    - dicom_file: Ścieżka do pliku DICOM (lub już wczytany obiekt pydicom.Dataset)
-    - plane: 'axial' (poprzeczny), 'coronal' (czołowy), 'sagittal' (strzałkowy)
-    - index: Współrzędna przekroju (domyślnie środkowy przekrój)
-    """
+    orientation = ds.ImageOrientationPatient
 
-    # Jeśli użytkownik podał ścieżkę, wczytaj plik DICOM
-    dicom_data = pydicom.dcmread(dicom_file)
+    # Sprawdzamy orientację na podstawie znanych wartości
+    if orientation == [1, 0, 0, 0, 0, -1]:
+        return "coronal"
+    elif orientation == [0, 1, 0, 0, 0, -1]:
+        return "sagittal"
+    elif orientation == [1, 0, 0, 0, 1, 0]:
+        return "axial"
+    else:
+        return "unknown"
 
 
-    # Pobranie macierzy pikseli
-    image_array = dicom_data.pixel_array
+def chose_dcm_face(folder_path, face, coordinate):
+    valid_images = sorted([os.path.join(folder_path, i) for i in os.listdir(folder_path) if i.endswith(".dcm")])
 
-    # Sprawdzenie, czy obraz jest 3D
-    if len(image_array.shape) == 2:
-        print("Obraz jest 2D, nie można wyświetlić innych przekrojów.")
-        plt.imshow(image_array, cmap='bone')
-        plt.colorbar()
-        plt.title("DICOM 2D Image")
-        plt.show()
+    if not valid_images:
+        print("No DICOM data in this directory:", folder_path)
         return
 
-    # Wymiary obrazu
-    z_dim, y_dim, x_dim = image_array.shape  # (warstwy, wysokość, szerokość)
+    # Wykrywamy orientację stosu na podstawie pierwszego obrazu
+    detected_orientation = detect_orientation(valid_images[0])
+    print(f"Detected orientation: {detected_orientation}")
 
-    # Wybór domyślnego indeksu (środkowy przekrój, jeśli nie podano)
-    if index is None:
-        if plane == 'axial':
-            index = z_dim // 2
-        elif plane == 'coronal':
-            index = y_dim // 2
-        elif plane == 'sagittal':
-            index = x_dim // 2
+    matrix_3d = [pydicom.dcmread(image).pixel_array for image in valid_images]
+    matrix_3d = np.array(matrix_3d)
 
-    # Wybór odpowiedniego przekroju
-    if plane == 'axial':  # Oś Z (poprzeczny)
-        slice_img = image_array[index, :, :]
-        title = f"Axial slice {index}"
-    elif plane == 'coronal':  # Oś Y (czołowy)
-        slice_img = image_array[:, index, :]
-        title = f"Coronal slice {index}"
-    elif plane == 'sagittal':  # Oś X (strzałkowy)
-        slice_img = image_array[:, :, index]
-        title = f"Sagittal slice {index}"
+    # Jeśli wykryta orientacja różni się od użytkownika, zmieniamy osie
+    if detected_orientation == "coronal":
+        matrix_3d = np.transpose(matrix_3d, (1, 0, 2))  # Zamiana (Z, Y, X) → (Y, Z, X)
+    elif detected_orientation == "sagittal":
+        matrix_3d = np.transpose(matrix_3d, (2, 0, 1))  # Zamiana (Z, Y, X) → (X, Z, Y)
+
+    z_dim, y_dim, x_dim = matrix_3d.shape
+
+    if face == 'axial':
+        if not (0 <= coordinate < z_dim):
+            return "Coordinate that you provided is out of range!"
+        slice_2d = matrix_3d[coordinate, :, :]
+
+    elif face == 'coronal':
+        if not (0 <= coordinate < y_dim):
+            return "Coordinate that you provided is out of range!"
+        slice_2d = matrix_3d[:, coordinate, :]
+
+    elif face == 'sagittal':
+        if not (0 <= coordinate < x_dim):
+            return "Coordinate that you provided is out of range!"
+        slice_2d = matrix_3d[:, :, coordinate]
+
     else:
-        raise ValueError("Nieprawidłowa płaszczyzna! Wybierz 'axial', 'coronal' lub 'sagittal'.")
+        print("Invalid face option! Use 'axial', 'coronal', or 'sagittal'.")
+        return
 
-    # Wizualizacja przekroju
-    plt.imshow(slice_img, cmap='bone')
-    plt.colorbar()
-    plt.title(title)
+    plt.imshow(slice_2d, cmap="gray")
+    plt.title(f"{face.capitalize()} Slice at {coordinate}")
+    plt.axis("off")
     plt.show()
 
 
-visualize_slice('1-1.dcm')
+# Przykład użycia
+chose_dcm_face("DICOM_Library", "sagittal", 150)

@@ -5,4 +5,4 @@ def dcm_metadata(dcm_path):
     print(file)
     return file
 
-dcm_metadata('lung_ct.dcm')
+dcm_metadata('DICOM_Library/1-003.dcm')

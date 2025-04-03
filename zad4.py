@@ -18,4 +18,4 @@ arr = np.max(arr) - arr
 file.PixelData = arr.astype(file.pixel_array.dtype).tobytes()
 
 # saving file
-file.save_as(f'{name}_modified.dcm')
+file.save_as(f'{name.removesuffix(".dcm")}_modified.dcm')

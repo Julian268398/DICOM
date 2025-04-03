@@ -10,7 +10,7 @@ def dcm_to_jpg(path):
     final = np.uint8(rescaled_pic)
     final = Image.fromarray(final)
     final.show()
-    final.save(f'{path}.jpg')
+    final.save(f'{path.removesuffix(".dcm")}.jpg')
 
 
-dcm_to_jpg('1-116.dcm')
+dcm_to_jpg('1-003.dcm')
